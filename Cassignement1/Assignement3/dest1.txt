@@ -1,0 +1,17 @@
+fgets()
+
+• fgets() is a line-oriented function.
+char *fgets(char *str,int n,FILE *fp);
+
+The function reads from the stream pointed to by fp and places
+the output into the character array pointed to by str.
+
+It will stop reading when any of the following conditions are true
+
+(1) It has read n-1 characters (one character is reserved for the null-
+terminator).
+
+(2) It encounters a new-line character.
+(3) It reaches the end of file.
+(4) A read error occurs.
+• fgets() automatically appends a null-terminator to the data read.
