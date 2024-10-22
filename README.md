@@ -1,2 +1,2 @@
-# HTML-assignment
-HTML Assignmentlist
+# Practical-assignment
+ PracticalAssignmentlist
